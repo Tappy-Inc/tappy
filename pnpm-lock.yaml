@@ -23,6 +23,9 @@ dependencies:
   '@vercel/postgres':
     specifier: ^0.4.1
     version: 0.4.1
+  '@vercel/postgres-kysely':
+    specifier: ^0.4.1
+    version: 0.4.1(kysely@0.26.1)
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.0
@@ -674,6 +677,16 @@ packages:
       isomorphic-fetch: 3.0.0
     transitivePeerDependencies:
       - encoding
+    dev: false
+
+  /@vercel/postgres-kysely@0.4.1(kysely@0.26.1):
+    resolution: {integrity: sha512-XFmjgCTnXDj/5KajeLzc8Qwfl783e9mu6vgqqvSzhqRout2Ib1cMi5s/ZlLj1ohqtcyMLBPuM4OUs9cef91b5w==}
+    engines: {node: '>=14.6'}
+    peerDependencies:
+      kysely: ^0.24.2 || ^0.25.0 || ^0.26.0
+    dependencies:
+      '@vercel/postgres': 0.4.1
+      kysely: 0.26.1
     dev: false
 
   /@vercel/postgres@0.4.1:
@@ -2138,6 +2151,11 @@ packages:
       object.assign: 4.1.4
       object.values: 1.1.6
     dev: true
+
+  /kysely@0.26.1:
+    resolution: {integrity: sha512-FVRomkdZofBu3O8SiwAOXrwbhPZZr8mBN5ZeUWyprH29jzvy6Inzqbd0IMmGxpd4rcOCL9HyyBNWBa8FBqDAdg==}
+    engines: {node: '>=14.0.0'}
+    dev: false
 
   /language-subtag-registry@0.3.22:
     resolution: {integrity: sha512-tN0MCzyWnoz/4nHS6uxdlFWoUZT7ABptwKPQ52Ea7URk6vll88bWBVhodtnlfEuCcKWNGoc+uGbw1cwa9IKh/w==}
