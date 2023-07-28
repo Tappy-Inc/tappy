@@ -1,5 +1,6 @@
 CREATE TABLE users (
   user_id SERIAL PRIMARY KEY,
+  clerk_user_id VARCHAR(100) UNIQUE,
   firstname VARCHAR(100) NOT NULL,
   lastname VARCHAR(100) NOT NULL,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
