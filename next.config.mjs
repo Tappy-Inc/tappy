@@ -8,6 +8,7 @@ await import("./src/env.mjs");
 const nextConfig = {
   output: "standalone",
   reactStrictMode: true,
+  swcMinify: true,
 };
 
 export default nextConfig;
