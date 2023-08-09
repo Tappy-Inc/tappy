@@ -18,7 +18,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "framer-motion": "^10.15.0",
-    "next": "13.4.12",
+    "next": "13.4.13",
     "pusher": "^5.1.3",
     "pusher-js": "^8.3.0",
     "react": "18.2.0",
